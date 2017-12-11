@@ -18,7 +18,7 @@ if ($_SESSION['UserID'] == "") {
             <li></li>
             <li class="current"><a href="index.php"><i class="fa fa-home"></i> หน้าแรก</a></li>
             <li><a href="forms.php"><i class="fa fa-file-text-o"></i> แบบฟอร์มต่างๆ</a></li>
-            <li><a href="add_timerec.php"><i class="fa fa-file-text-o"></i> บันทึกเวลาทำงาน</a></li>
+            <li><a href="add_timerec.php"><i class="fa fa-clock-o"></i> บันทึกเวลาทำงาน</a></li>
             <!--
             <li class="submenu">
                 <a href="#">

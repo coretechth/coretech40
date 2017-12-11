@@ -16,7 +16,11 @@ $outTime= date('Y-m-d H:i:s',$outTime);
 
 $date1 = DateTime::createFromFormat('H:i a', $in);
 
-echo $date1;
+if(strtotime($inTime) < strtotime($outTime)){
+echo "ekrgierkgoerkgeorkopk";
+}
+
+echo $_POST['txtTimeIn'];;
 
 $sql = "INSERT INTO time_reccord VALUES('','".$name."','".$inTime."','".$outTime."','".$remark."')";
 
